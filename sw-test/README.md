@@ -1,5 +1,4 @@
-############################################   SW Code Test  ###########################################################
-
+SW Code Test  
 
 I've implemented one extra Scenario in which no body worked alone in a whole day and it includes 3 people
 
