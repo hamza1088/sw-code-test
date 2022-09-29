@@ -22,18 +22,30 @@ Then No one recieves a Single manning reward.
 Steps to test the application : 
 
 1) Create mysql databse with following connection constants :
+ 
     DB_CONNECTION=mysql
+    
     DB_HOST=127.0.0.1
+    
     DB_PORT=3306
+    
     DB_DATABASE=sw_test
+    
     DB_USERNAME=root
+    
     DB_PASSWORD=123
+    
 
 2) Run Migration "php artisan migrate"
-3) Run Seeders 
+3) Run Seeders
+4)  
         php artisan db:seed --class=RotaSeeder
+        
         php artisan db:seed --class=StaffSeeder
+        
         php artisan db:seed --class=ShiftSeeder
+        
         php artisan db:seed --class=ShiftBreakSeeder
+        
 
 4) Run unit tests  "./vendor/bin/phpunit"
